@@ -1,6 +1,6 @@
 #code to swap two number in a fun way
 
-a = 5
+a = 42
 b = 3
 
 print(a, b)
