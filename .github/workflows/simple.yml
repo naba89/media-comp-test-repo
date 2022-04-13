@@ -8,5 +8,6 @@ jobs:
     
     steps:
     - uses: actions/setup-python@v3
-    run: 
-    python swap_numbers.py
+    - name: lets run python code
+      run: |
+        python swap_numbers.py
