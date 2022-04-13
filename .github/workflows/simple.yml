@@ -11,5 +11,4 @@ jobs:
     - uses: actions/setup-python@v3
     - name: lets run python code
       run: |
-        ls
-        pwd
+        python swap_numbers.py
