@@ -1,0 +1,14 @@
+name: test code
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+    - name: lets run python code
+      run: |
+        python swap_numbers.py
